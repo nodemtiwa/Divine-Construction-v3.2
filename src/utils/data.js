@@ -3,7 +3,7 @@ export const data = {
     // PRODUCT ONE
     {
       id: '1',
-      name: '4 BEDROOM TERRACE DESIGN (RF T4007)',
+      name: 'Cameroon flag',
       category: 'duplex',
       description:
         'Reception, Unisex saloon, Business centre, Restaurant, Bar Lounge, Kitchen, Laundry, Standard rooms, Executive rooms, Suites, Minimum land size needed is 100ft by 100ft. ',
