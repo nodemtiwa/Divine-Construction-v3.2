@@ -2,7 +2,7 @@ export const data = {
   plans: [
     // PRODUCT ONE
     {
-      id: '1',
+      id: '100',
       name: 'Cameroon flag',
       category: 'duplex',
       description:
@@ -13,14 +13,14 @@ export const data = {
       images: [
         {
           id: 1,
-          name: 'Angled view',
-          src: '/images/hd01.jpg',
-          alt: 'Angled front view with bag zipped and handles upright.',
+          name: 'Front view',
+          src: '/images/hd05.jpg',
+          alt: 'Front view of bungalow',
         },
         {
           id: 2,
           name: 'Angled view',
-          src: '/images/hd02.jpg',
+          src: '/images/interior/toilet/1/22_3_2010_7_4_41_Lr_Club-House.jpg',
           alt: 'Angled front view with bag zipped and handles upright.',
         },
         {
@@ -67,7 +67,7 @@ export const data = {
 
     // PRODUCT TWO
     {
-      id: '2',
+      id: '200',
       name: 'Building Construction',
       category: 'bungalow',
       description:
@@ -132,7 +132,7 @@ export const data = {
 
     // PRODUCT THREE
     {
-      id: '3',
+      id: '300',
       name: 'Architectural company Plan',
       category: 'apartment',
       description:
@@ -196,10 +196,14 @@ export const data = {
     },
 
     // PRODUCT FOUR
+   
+    
+
+
     {
-      id: '4',
-      name: 'E-book (RF HD 1007)',
-      category: 'ebook',
+      id: '500',
+      name: 'Landscape',
+      category: 'landscape',
       description:
         'Reception, Unisex saloon, Business centre, Restaurant, Bar Lounge, Kitchen, Laundry, Standard rooms, Executive rooms, Suites, Minimum land size needed is 100ft by 100ft. ',
       price: 400,
@@ -259,6 +263,221 @@ export const data = {
         }
       ],
     },
+
+
+
+
+
+
+
+    {
+      id: '600',
+      name: 'Interiror design',
+      category: 'interior',
+      description:
+        'Reception, Unisex saloon, Business centre, Restaurant, Bar Lounge, Kitchen, Laundry, Standard rooms, Executive rooms, Suites, Minimum land size needed is 100ft by 100ft. ',
+      price: 400,
+      rating: 4,
+      numReviews: 122,
+      images: [
+        {
+          id: 1,
+          name: 'Angled view',
+          src: '/images/hd01.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 2,
+          name: 'Angled view',
+          src: '/images/hd02.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 3,
+          name: 'Angled view',
+          src: '/images/hd03.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 4,
+          name: 'Angled view',
+          src: '/images/hd03.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        }
+      ],
+      countInStock: 20,
+      details: [
+        {
+          name: 'Features',
+          items: [
+            'Multiple strap configurations',
+            'Spacious interior with top zip',
+            'Leather handle and tabs',
+            'Interior dividers',
+            'Stainless strap loops',
+            'Double stitched construction',
+            'Water-resistant',
+          ],
+        },
+        {
+          name: 'Specifications',
+          items: [
+            'Multiple strap configurations',
+            'Spacious interior with top zip',
+            'Leather handle and tabs',
+            'Interior dividers',
+            'Stainless strap loops',
+            'Double stitched construction',
+            'Water-resistant',
+          ],
+        }
+      ],
+    },
+
+
+
+
+
+
+    {
+      id: '700',
+      name: 'rendering and animation',
+      category: 'rendering',
+      description:
+        'Reception, Unisex saloon, Business centre, Restaurant, Bar Lounge, Kitchen, Laundry, Standard rooms, Executive rooms, Suites, Minimum land size needed is 100ft by 100ft. ',
+      price: 400,
+      rating: 4,
+      numReviews: 122,
+      images: [
+        {
+          id: 1,
+          name: 'Angled view',
+          src: '/images/hd01.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 2,
+          name: 'Angled view',
+          src: '/images/hd02.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 3,
+          name: 'Angled view',
+          src: '/images/hd03.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 4,
+          name: 'Angled view',
+          src: '/images/hd03.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        }
+      ],
+      countInStock: 20,
+      details: [
+        {
+          name: 'Features',
+          items: [
+            'Multiple strap configurations',
+            'Spacious interior with top zip',
+            'Leather handle and tabs',
+            'Interior dividers',
+            'Stainless strap loops',
+            'Double stitched construction',
+            'Water-resistant',
+          ],
+        },
+        {
+          name: 'Specifications',
+          items: [
+            'Multiple strap configurations',
+            'Spacious interior with top zip',
+            'Leather handle and tabs',
+            'Interior dividers',
+            'Stainless strap loops',
+            'Double stitched construction',
+            'Water-resistant',
+          ],
+        }
+      ],
+    },
+
+
+
+
+
+    {
+      id: '800',
+      name: 'custom designs',
+      category: 'custom',
+      description:
+        'Reception, Unisex saloon, Business centre, Restaurant, Bar Lounge, Kitchen, Laundry, Standard rooms, Executive rooms, Suites, Minimum land size needed is 100ft by 100ft. ',
+      price: 400,
+      rating: 4,
+      numReviews: 122,
+      images: [
+        {
+          id: 1,
+          name: 'Angled view',
+          src: '/images/hd01.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 2,
+          name: 'Angled view',
+          src: '/images/hd02.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 3,
+          name: 'Angled view',
+          src: '/images/hd03.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        },
+        {
+          id: 4,
+          name: 'Angled view',
+          src: '/images/hd03.jpg',
+          alt: 'Angled front view with bag zipped and handles upright.',
+        }
+      ],
+      countInStock: 20,
+      details: [
+        {
+          name: 'Features',
+          items: [
+            'Multiple strap configurations',
+            'Spacious interior with top zip',
+            'Leather handle and tabs',
+            'Interior dividers',
+            'Stainless strap loops',
+            'Double stitched construction',
+            'Water-resistant',
+          ],
+        },
+        {
+          name: 'Specifications',
+          items: [
+            'Multiple strap configurations',
+            'Spacious interior with top zip',
+            'Leather handle and tabs',
+            'Interior dividers',
+            'Stainless strap loops',
+            'Double stitched construction',
+            'Water-resistant',
+          ],
+        }
+      ],
+    },
+
+
+
+
+
+
+
+    
   ],
 };
 
