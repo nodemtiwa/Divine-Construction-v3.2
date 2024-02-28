@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+}
+
+
+
+.card {
+  @apply mb-4 block rounded-lg border border-gray-300;
+}
+
+/* .primary-button {
+  @apply rounded text-sky-600 font-medium py-2 px-4 shadow outline-none
+   hover:bg-sky-400 hover:text-gray-200 border border-b-sky-600  active:bg-sky-500;
+} */
+
+.primary-button {
+  @apply rounded bg-sky-600 text-gray-100 py-2 px-4 shadow outline-none hover:bg-sky-500 active:bg-sky-500;
+}
+
+.secondary-button {
+  @apply rounded bg-sky-200 text-black py-2 px-4 shadow outline-none hover:bg-sky-300 active:bg-sky-300;
+}
+
+.default-button {
+  @apply rounded bg-gray-100 py-2 px-4 text-black shadow outline-none hover:bg-gray-200 active:bg-gray-300 dark:text-white dark:bg-gray-800 dark:hover:bg-gray-700;
+}
+
+
+/* .bg-header { 
+  background-color: rgb(9, 48, 83);
+} */
+
+.bg-video {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.overview {
+  background-color: rgba(23, 6, 97, .3);
+  background-blend-mode: multiply;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
