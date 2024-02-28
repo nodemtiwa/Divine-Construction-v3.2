@@ -17,10 +17,10 @@ const navigation = {
         { name: 'E-BOOKS', href: '/ebooks' },
     ],
     support: [
-        { name: 'LANDSCAPE DESIGN', href: '/landscape_design' },
-        { name: 'INTERIOR DESIGN', href: '/interior_design' },
-        { name: 'CUSTOM DESIGN', href: '/custom_design' },
-        { name: 'RENDERING  & ANIMATION', href: '/renderings' },
+        { name: 'LANDSCAPE DESIGN', href: '/landscape' },
+        { name: 'INTERIOR DESIGN', href: '/interior' },
+        { name: 'CUSTOM DESIGN', href: '/custom' },
+        { name: 'RENDERING  & ANIMATION', href: '/rendering' },
     ],
     company: [
         { name: 'Home', href: '/' },
